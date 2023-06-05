@@ -6,7 +6,7 @@ let tiempoid = null;
 temporizador=false;
 mas1=0;
 let mt = document.getElementById("tm");
-//let nombre = prompt("Ingrese su nombre ");
+let nombre = prompt("Ingrese su nombre ");
 
         let iconos = []
         let selecciones = []
