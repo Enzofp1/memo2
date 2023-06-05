@@ -6,7 +6,7 @@ let tiempoid = null;
 temporizador=false;
 mas1=0;
 let mt = document.getElementById("tm");
-let nombre = prompt("Ingrese su nombre ");
+//let nombre = prompt("Ingrese su nombre ");
 
         let iconos = []
         let selecciones = []
@@ -31,7 +31,7 @@ let nombre = prompt("Ingrese su nombre ");
 
         function generarTablero(f) {
             cargarIconos()
-           
+           let imagenes= document.querySelector(".img")
             selecciones = []
             cantidadTarjetas=f;
             timer=0;
@@ -45,11 +45,15 @@ let nombre = prompt("Ingrese su nombre ");
           stopTimer();
 
             if(f === 6){
+              
                 part.setAttribute("onclick","generarTablero(6)");
+                
+               
               }else if(f === 12){
+                
                 part.setAttribute("onclick","generarTablero(12)");
               }else if(f === 18){   
-                    
+                
                 part.setAttribute("onclick","generarTablero(18)");
                 
               }

@@ -1,36 +1,37 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memorama</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
      <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.2.1/dist/sweetalert2.all.min.js"></script>
 </head>
 
 <body>
-    <div></div>
+    
     <div id="tablero">
     </div>
     <br>
-   <div>
-    <div class="nuevo-juego" onclick="generarTablero()">
+   <div class="media1">
+    <div  class=" md nuevo-juego " onclick="generarTablero()">
         Nuevo Juego
     </div>
 
-    <div >
-        <span id="tm" class="tem">Tiempo que le llevo: 0 segs</span>
-    </div>
+    
+        <span id="tm" class="tem md">Tiempo que le llevo: 0 segs</span>
+    
     <div class="list">
-        <label class="nuevo-juego1"> DIFICULTAD: </label>
-        <ul class="nav-1" onclick="iniciarContador()">
+        <label class="nuevo-juego1 md m1"> DIFICULTAD: </label>
+        <ul class="nav-1 " >
             <br/>
-            <li class="nuevo-juego1" onclick="generarTablero(6)">FACIL</li>
-            <li class="nuevo-juego1" onclick="generarTablero(12)">MEDIO</li>
-            <li class="nuevo-juego1" onclick="generarTablero(18)">DIFICIL</li>
+            <li class="nuevo-juego1 md" onclick="generarTablero(6)">FACIL</li>
+            <li class="nuevo-juego1 md" onclick="generarTablero(12)">MEDIO</li>
+            <li class="nuevo-juego1 md" onclick="generarTablero(18)">DIFICIL</li>
         </ul>
     </div>
    </div>
