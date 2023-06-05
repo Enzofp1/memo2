@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Memorama</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.2.1/dist/sweetalert2.all.min.js"></script>
+</head>
+
+<body>
+    <div></div>
+    <div id="tablero">
+    </div>
+    <br>
+   <div>
+    <div class="nuevo-juego" onclick="generarTablero()">
+        Nuevo Juego
+    </div>
+
+    <div >
+        <span id="tm" class="tem">Tiempo que le llevo: 0 segs</span>
+    </div>
+    <div class="list">
+        <label class="nuevo-juego1"> DIFICULTAD: </label>
+        <ul class="nav-1" onclick="iniciarContador()">
+            <br/>
+            <li class="nuevo-juego1" onclick="generarTablero(6)">FACIL</li>
+            <li class="nuevo-juego1" onclick="generarTablero(12)">MEDIO</li>
+            <li class="nuevo-juego1" onclick="generarTablero(18)">DIFICIL</li>
+        </ul>
+    </div>
+   </div>
+    
+<script src="script.js"></script>
+
+</body>
+
+</html>
